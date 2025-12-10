@@ -88,9 +88,9 @@ class Tif_Read_and_Write(object):
 
 
 # -------------------示例-------------------
-# >>> 读取
+# >>> 读取tif:
 data, prj, trans = Tif_Read_and_Write().Tif_Read(input_data_path=r'./sample_file.tif')
-# >>> 存储
+# >>> 存储tif:
 Tif_Read_and_Write().Numpy_to_Tif(img_data=data, 
                                   output_path=r'./new_sample_file.tif', 
                                   top_left_lon=0.0, 
