@@ -87,7 +87,7 @@ class Tif_Read_and_Write(object):
             dst.write(img_data)
 
 
-# -------------------示例-------------------
+# --------------------示例--------------------
 # >>> 读取tif:
 data, prj, trans = Tif_Read_and_Write().Tif_Read(input_data_path=r'./sample_file.tif')
 # >>> 存储tif:
