@@ -28,3 +28,30 @@ pip install numpy==2.2.2
 pip install <下载好的.whl文件的路径>
 ```
 
+# 2 UseRasterio ReadandWrite TifFile
+
+## 2.1 功能
+
+- 使用Rasterio的相关库读取与写入tif文件，处理的文件可以与Arcgis与ENVI等遥感软件协同使用
+- 有时候Gdal会与一些其他库出现版本不统一的问题，可以使用Rasterio读写tif文件进行解决
+
+## 2.2 需要安装的库
+
+- numpy
+
+```
+pip install numpy==2.2.2
+```
+
+- rasterio
+
+```
+pip install rasterio==1.4.3
+```
+
+- pyproj
+
+```
+pip install pyproj==3.7.2
+```
+
