@@ -2,13 +2,13 @@
 
 尝试记录研究过程中的一些实用小工具/脚本
 
-## 1 UseGdal ReadandWrite TifFile
+# 1 UseGdal ReadandWrite TifFile
 
-### 1.1 功能
+## 1.1 功能
 
 - 使用gdal的相关库读取与写入tif文件，处理的文件可以与Arcgis与ENVI等遥感软件协同使用
 
-### 1.2 需要安装的库
+## 1.2 需要安装的库
 
 - numpy
 
