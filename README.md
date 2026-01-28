@@ -55,3 +55,26 @@ pip install rasterio==1.4.3
 pip install pyproj==3.7.2
 ```
 
+# 3 UseWget DownLoad FTP
+
+## 3.1 功能
+
+- 使用Wget进行文件下载
+
+## 3.2 需要安装的库
+
+- wget
+
+```
+pip install wget==3.2
+```
+
+# 4 UseFtpLip DownLoad FTP
+
+## 4.1 功能
+
+- 使用ftplib进行文件下载
+
+## 4.2 需要安装的库
+
+- ftplib为python的内置库，因此不用额外安装第三方库
